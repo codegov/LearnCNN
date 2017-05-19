@@ -26,6 +26,8 @@
 		823FD4231DDD9A330091E9A3 /* t10k-labels-idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-labels-idx1-ubyte"; sourceTree = "<group>"; };
 		823FD4241DDD9A330091E9A3 /* train-images-idx3-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-images-idx3-ubyte"; sourceTree = "<group>"; };
 		823FD4251DDD9A8E0091E9A3 /* train-labels-idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-labels-idx1-ubyte"; sourceTree = "<group>"; };
+		8242839B1E56C5BE0022CD86 /* bias_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bias_conv.dat; sourceTree = "<group>"; };
+		8242839C1E56C5BE0022CD86 /* weights_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = weights_conv.dat; sourceTree = "<group>"; };
 		826AB6BB1DD988B8007F66EC /* LearnCNN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCNN; sourceTree = BUILT_PRODUCTS_DIR; };
 		826AB6BE1DD988B8007F66EC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +62,8 @@
 		826AB6BD1DD988B8007F66EC /* LearnCNN */ = {
 			isa = PBXGroup;
 			children = (
+				8242839B1E56C5BE0022CD86 /* bias_conv.dat */,
+				8242839C1E56C5BE0022CD86 /* weights_conv.dat */,
 				823FD4231DDD9A330091E9A3 /* t10k-labels-idx1-ubyte */,
 				823FD4251DDD9A8E0091E9A3 /* train-labels-idx1-ubyte */,
 				823FD4241DDD9A330091E9A3 /* train-images-idx3-ubyte */,
